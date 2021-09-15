@@ -1,0 +1,14 @@
+/* Örnek bir değişken tanımlaması */
+:root {
+    --color: green;
+}
+
+/* Değişkenlerin kullanımı */
+h3 {
+    color: var(--color);
+}
+
+/* Local olarak değişken tanımlamak */
+.box {
+    --color: blue;
+}
